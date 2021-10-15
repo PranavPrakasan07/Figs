@@ -3,6 +3,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .figma_lottie {
     vertical-align: middle;
     position: relative;
@@ -117,16 +121,6 @@ a {
     color: white;
 }
 
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
-}
-
-.fa-pinterest {
-    background: #cb2027;
-    color: white;
-}
-
 .fa-linkedin {
     background: #007bb5;
     color: white;
@@ -138,23 +132,10 @@ a {
 }
 
 .fa-youtube {
-    background: #bb0000;
     color: white;
 }
 
 .fa-google {
-    background: #dd4b39;
-    color: white;
-}
-
-.fa-snapchat-ghost {
-    background: #fffc00;
-    color: white;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-
-.fa-skype {
-    background: #00aff0;
     color: white;
 }
 
@@ -162,15 +143,38 @@ a {
     opacity: 0.9;
 }
 
-.icons_block{
+.icons_block {
     color: white;
-    display:flex;
+    display: flex;
+    margin: 32px;
 }
 
-.icons{
+.icons {
     width: 32px;
     /* padding: 16px; */
     margin: 16px;
+}
+
+#subscribe {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    padding: 0px 16px 0px 16px;
+    margin: 0px 16px 0px 16px;
+}
+
+input {
+    padding: 4px 16px 4px 16px;
+    font-family: 'Poppins', sans-serif;
+    border: 0px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+#small_text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    padding: 0px 16px 0px 16px;
+    margin: 0px 16px 0px 16px;
 }
 
 /* Responsive layout - makes a one column-layout instead of two-column layout */
