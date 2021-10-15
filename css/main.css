@@ -7,6 +7,10 @@ html {
     scroll-behavior: smooth;
 }
 
+body{
+    background-color: white;
+}
+
 .figma_lottie {
     vertical-align: middle;
     position: relative;
@@ -45,39 +49,39 @@ html {
     position: relative;
 }
 
-#title {
+.title_header {
     font-family: 'Poppins', sans-serif;
     font-size: 82px;
     padding: 0px 16px 0px 16px;
     margin: 0px 16px 0px 16px;
 }
 
-#tagline {
+.tagline {
     font-family: 'Poppins', sans-serif;
     font-size: 42px;
     padding: 0px 16px 0px 16px;
     margin: 0px 16px 0px 16px;
 }
 
-#sub_title {
+.sub_title {
     font-family: 'Poppins', sans-serif;
     font-size: 58px;
     padding: 0px 16px 0px 16px;
     margin: 0px 16px 0px 16px;
 }
 
-#content {
+.content {
     font-family: 'Poppins', sans-serif;
     font-size: 28px;
     padding: 0px 16px 0px 16px;
     margin: 0px 16px 0px 16px;
 }
 
-#black_button {
+.black_button {
     background-color: black;
     color: white;
     border-radius: 10px;
-    width: fit-content;
+    width:max-content;
     padding: 8px 16px 8px 16px;
     margin: 32px;
 }
@@ -170,7 +174,7 @@ input {
     font-size: 18px;
 }
 
-#small_text {
+.small_text {
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     padding: 0px 16px 0px 16px;
@@ -183,6 +187,24 @@ input {
     bottom: 0;
     right: 0;
 }
+
+.credits_header {
+    font-family: 'Poppins', sans-serif;
+    font-size: 82px;
+    color: black;
+    z-index: -1;
+    padding: 0px 16px 0px 16px;
+    margin: 0px 16px 0px 16px;
+}
+
+.credit_content {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: black;
+    padding: 0px 16px 0px 16px;
+    margin: 0px 16px 0px 16px;
+}
+
 
 /* Responsive layout - makes a one column-layout instead of two-column layout */
 
