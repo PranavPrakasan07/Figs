@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 
-#figma_lottie {
+.figma_lottie {
     vertical-align: middle;
     position: relative;
 }
