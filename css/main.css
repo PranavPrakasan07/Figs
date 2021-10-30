@@ -7,8 +7,23 @@ html {
     scroll-behavior: smooth;
 }
 
-body{
+body {
     background-color: white;
+}
+
+.dark-mode {
+    background-color: #1F1F1F;
+    color: white;
+}
+
+
+.dmode_black_button {
+    background-color: white;
+    color: #1F1F1F;
+    border-radius: 10px;
+    width: max-content;
+    padding: 8px 16px 8px 16px;
+    margin: 32px;
 }
 
 .figma_lottie {
@@ -81,7 +96,7 @@ body{
     background-color: black;
     color: white;
     border-radius: 10px;
-    width:max-content;
+    width: max-content;
     padding: 8px 16px 8px 16px;
     margin: 32px;
 }
@@ -172,7 +187,7 @@ input {
     border: 0px;
     border-radius: 10px;
     font-size: 18px;
-    margin:32px;
+    margin: 32px;
 }
 
 .small_text {
@@ -182,7 +197,7 @@ input {
     margin: 0px 16px 0px 16px;
 }
 
-#floating_button{
+#floating_button {
     position: fixed;
     margin: 32px;
     bottom: 0;
@@ -205,7 +220,6 @@ input {
     padding: 0px 16px 0px 16px;
     margin: 0px 16px 0px 16px;
 }
-
 
 /* Responsive layout - makes a one column-layout instead of two-column layout */
 
